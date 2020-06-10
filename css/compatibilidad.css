@@ -1,0 +1,148 @@
+@font-face {
+	font-family: 'OpenSans';
+	src: url('../fonts/OpenSans.eot');
+	src: url('../fonts/OpenSans.woff2') format('woff2'),
+		 url('../fonts/OpenSans.woff') format('woff'),
+		 url('../fonts/OpenSans.ttf') format('truetype'),
+		 url('../fonts/OpenSans.svg#OpenSans') format('svg'),
+		 url('../fonts/OpenSans.eot?#iefix') format('embedded-opentype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'OpenSans-Light';
+	src: url('../fonts/OpenSans-Light.eot');
+	src: url('../fonts/OpenSans-Light.woff2') format('woff2'),
+		 url('../fonts/OpenSans-Light.woff') format('woff'),
+		 url('../fonts/OpenSans-Light.ttf') format('truetype'),
+		 url('../fonts/OpenSans-Light.svg#OpenSans-Light') format('svg'),
+		 url('../fonts/OpenSans-Light.eot?#iefix') format('embedded-opentype');
+	font-weight: normal;
+}
+
+
+*,
+*::after,
+*::before {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+*:focus {
+    outline: none;
+}
+
+body {
+    color: #010101;
+    margin: 0;
+}
+
+a:active, a:selected, a:visited { 
+    border: none;
+    outline: none;
+}
+
+img {
+    width: 100px;
+    margin: 0 auto;
+    border: none;
+    outline: none;
+}
+
+.wrapper {
+    position:fixed;
+    padding:0;
+    margin:0;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background: #ffffff;
+}
+
+.section_comp {
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.86px;
+    font-family: "OpenSans";
+    width: 990px;
+    height: 440px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -210.5px;
+    margin-left: -495px;
+}
+
+.content__title {
+	font-family: 'OpenSans-Light', sans-serif;
+	font-size: 35px;
+	margin-bottom: 100px;
+	z-index: 5;
+	cursor: default;
+    font-weight: 300;
+}
+
+.content__title strong{
+	font-family: 'OpenSans-Bold', sans-serif;
+	color: #E99300;
+}
+
+.section_navegadores div{
+    width: 25%;
+    float: left;
+    text-align: center
+}
+
+.section_navegadores div p{
+    font-family: "OpenSans-Light";
+    font-size: 15px;
+    letter-spacing: 0.94px;
+    text-align: center;
+    margin: 26px 0 0 0;
+}
+
+.section_navegadores div a img{
+    width: 87px;
+    height: 87px;
+}
+
+.section_img{
+    width: 25%;
+    float: left;
+    position: relative;
+    height: 268px;
+}
+
+.section_navegadores {
+    width: 75%;
+    float: left;
+}
+
+.content_content{
+    width: 100%;
+    float: left;
+}
+
+.primer-p {
+    margin: 0 0 40px 0;
+}
+
+.img-persona {
+    width: 120px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.img-globo {
+    width: 62px;
+    position: absolute;
+    top: -30px;
+    right: 56px;
+}
+
+.ie7 .section_navegadores {
+    width: 74%;
+}
